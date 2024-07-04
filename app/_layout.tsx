@@ -14,6 +14,10 @@ export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    Sirukota: require('../assets/fonts/Sirukota.ttf'),
+    'swm-icons-broken': require('@swmansion/icons/fonts/broken/swm-icons-broken.ttf'),
+    'swm-icons-outline': require('@swmansion/icons/fonts/outline/swm-icons-outline.ttf'),
+    'swm-icons-curved': require('@swmansion/icons/fonts/curved/swm-icons-curved.ttf'),
   });
 
   useEffect(() => {
